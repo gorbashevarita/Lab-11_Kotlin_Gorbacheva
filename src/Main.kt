@@ -4,6 +4,12 @@ import resources.OutpostResource
 import resources.ResourseManager
 
 fun main() {
+    handleOrder( status = OrderStatus.Created)
+    handleOrder( status = OrderStatus. Paid)
+    handleOrder( status = OrderStatus. Shipped)
+    handleOrder( status = OrderStatus.Cancelled(reason = "Нет товара на складе"))
+
+
 //    MyCar( model = "Toyota")
 //    MyCar( model = "BMW")
 //    TrafficController.carPassed()
