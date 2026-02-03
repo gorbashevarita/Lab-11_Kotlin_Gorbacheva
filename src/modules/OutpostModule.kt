@@ -1,0 +1,18 @@
+package modules
+
+import resources.ResourseManager
+
+abstract class OutpostModule(
+    val name: String,
+    var level: Int = 1
+) {
+    fun upgrade() {
+        level++
+        println("$name улучшен до уровня $level")
+    }
+    abstract fun performAction(manager: ResourseManager)
+}
+
+interface ModuleAction {
+    fun execute(manager: ResourseManager)
+}
