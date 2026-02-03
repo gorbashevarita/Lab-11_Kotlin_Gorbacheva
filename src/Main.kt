@@ -1,13 +1,23 @@
 import modules.EnergyGenerator
 import modules.ResearchLab
+import modules.handleModuleResult
 import resources.OutpostResource
 import resources.ResourseManager
 
 fun main() {
-    handleOrder( status = OrderStatus.Created)
-    handleOrder( status = OrderStatus. Paid)
-    handleOrder( status = OrderStatus. Shipped)
-    handleOrder( status = OrderStatus.Cancelled(reason = "Нет товара на складе"))
+//    val generatorResult = generator.performAction(manager)
+//    val labResult = lab.performAction(manager)
+//
+//    handle ModuleResult(generatorResult)
+//    handleModuleResult(labResult)
+//
+//    println()
+//    manager.printAll()
+
+//    handleOrder( status = OrderStatus.Created)
+//    handleOrder( status = OrderStatus. Paid)
+//    handleOrder( status = OrderStatus. Shipped)
+//    handleOrder( status = OrderStatus.Cancelled(reason = "Нет товара на складе"))
 
 
 //    MyCar( model = "Toyota")
