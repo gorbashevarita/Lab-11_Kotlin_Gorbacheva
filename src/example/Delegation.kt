@@ -1,6 +1,6 @@
-import kotlin.properties.Delegates
+package example
 
-// package example
+import kotlin.properties.Delegates
 
 var counter: Int by Delegates.observable(initialValue = 0) { _, old, new ->
     println("Счётчик изменился: $old -> $new")
@@ -40,13 +40,13 @@ class User {
     }
 }
 
-fun main() {
-    counter = 1
-    counter = 5
+//fun main() {
+//    counter = 1
+//    counter = 5
 //        val max = InstantMessenger(programName = "MAX")
 //        // val photoCamera = PhotoCamera()
 //        val yotaPhone = SmartPhone(name = "YotaPhone", m = max)
 //        yotaPhone.sendTextMessage()
 //        yotaPhone.sendVideoMessage()
 
-}
+//}

@@ -1,6 +1,7 @@
+package resources
+
 import kotlin.properties.Delegates
 
-// package resources
 
 data class OutpostResource(
     val id: Int,
